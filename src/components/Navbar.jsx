@@ -41,7 +41,7 @@ function Navbar() {
               <a
                 key={index}
                 href="#"
-                className={`text-base font-light ${index === 4 && "ml-56"}`}
+                className={`text-base font-medium ${index === 4 && "ml-56"}`}
               >
                 {item}
               </a>

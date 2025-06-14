@@ -4,7 +4,7 @@ import { FaArrowUpLong } from "react-icons/fa6";
 function LandingPage() {
   return (
     <>
-      <div className="w-full h-screen bg-zinc-900 pt-1">
+      <div className="w-full h-screen pt-1">
         <div className="textStructure mt-52 px-20">
           {["we create", "eye-opening", "presentations"].map((item, index) => {
             return (
