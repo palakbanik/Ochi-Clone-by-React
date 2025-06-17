@@ -23,8 +23,6 @@ function LandingPage() {
               </div>
             );
           })}
-
-          <div></div>
         </div>
 
         <div className="border-t-[1px] border-zinc-800 mt-20 flex  justify-between items-center py-4 px-20">

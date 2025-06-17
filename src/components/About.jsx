@@ -1,4 +1,5 @@
 import React from "react";
+import BtnFile from "../atom/BtnFile";
 
 function About() {
   return (
@@ -12,9 +13,7 @@ function About() {
         <div className="w-full border-t-[1px] mt-20 border-[#9bb055] flex gap-5 pt-10">
           <div className="w-1/2">
             <h1 className="text-7xl">Our approach:</h1>
-            <button className="flex items-center gap-10 uppercase px-10 py-4 bg-zinc-900 opacity-90 mt-10 rounded-full text-white">
-              Read More <div className="w-2 h-2 bg-zinc-100 rounded-full"></div>
-            </button>
+            <BtnFile />
           </div>
           <img
             className="w-1/2 h-[35vw] bg-[#c4da73] rounded-3xl"

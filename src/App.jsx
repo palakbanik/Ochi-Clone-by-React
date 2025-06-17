@@ -4,6 +4,7 @@ import LandingPage from "./components/LandingPage";
 import Marquee from "./components/Marquee";
 import About from "./components/About";
 import EyesSection from "./components/EyesSection";
+import Featured from "./components/Featured";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Marquee />
         <About />
         <EyesSection />
+        <Featured />
       </div>
     </>
   );
