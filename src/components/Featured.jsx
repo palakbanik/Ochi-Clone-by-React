@@ -51,7 +51,7 @@ function Featured() {
                         key={index}
                         className="w-full h-full bg-cover"
                         src={item}
-                        alt=""
+                        alt="image"
                       />
                     </div>
                   </div>
@@ -60,7 +60,6 @@ function Featured() {
             ]}
           </div>
         </div>
-        <BtnFile />
       </div>
     </>
   );
